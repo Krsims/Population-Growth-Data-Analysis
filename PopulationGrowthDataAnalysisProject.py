@@ -47,7 +47,7 @@ cinput = input("Type a top ten country: ")
 print('You chose: ', cinput)
 
 year = float(input("How many years from 1952? "))
-print(int(year),'years from now is', int(year + 1952))
+print(int(year),'years from 1952 is', int(year + 1952))
 
 Prediction = (year * rates.get(cinput))
 print('Based on the average population growth per year from 1952 to 2007; in year', int(year + 1952), ' the population of', cinput, 'will be', Prediction, 'million people or', Prediction/10**3, 'billion people.')
